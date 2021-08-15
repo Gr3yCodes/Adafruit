@@ -17,7 +17,7 @@
 
   Edited by Justin Dyal to work specifically for the BME280 and the Feather M0 with winc1500 WiFi
   Specific Adafruit hardware needed:
-  ----> http://www.adafruit.com/products/2650
+  ----> https://www.adafruit.com/product/2652
   ----> https://www.adafruit.com/product/3010
 
   I2C Physical Pin Connections(Feather M0 WiFi to BME280):
@@ -64,7 +64,7 @@ void setup() {
     }
     
     Serial.println("Serial Monitor Output for BME280 on Feather M0 WiFi");
-    delayTime = 200000;
+    delayTime = 30000;
 
     Serial.println();
 }
